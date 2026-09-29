@@ -8,3 +8,5 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- Keep all SOLILOQY marketing copy and collection data in `src/data/soliloqy.ts` so the static site remains easy to edit.
