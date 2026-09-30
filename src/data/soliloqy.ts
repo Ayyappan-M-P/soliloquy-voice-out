@@ -1,11 +1,22 @@
 export const navItems = [
   ["Home", "home"],
   ["About", "about"],
+  ["Meet Solo", "meet-solo"],
   ["What We Do", "what-we-do"],
   ["Events", "events"],
   ["Spaces", "spaces"],
   ["Contact", "contact"],
 ] as const;
+
+export const solo3d = {
+  eyebrow: "02 / The mascot with a monologue",
+  title: "Meet Solo in 3D",
+  note: "drag me around",
+  intro: "Our streetwear duck is fully procedural, a little dramatic, and always ready for the next thought.",
+  speech: "Hey, you. Yes, you. 😜",
+  poses: ["Idle", "Run", "Sing", "Dance", "Jump", "DJ", "Celebrate", "Point", "Backflip"],
+  expressions: ["Neutral", "Happy", "Surprised", "Annoyed", "Sleepy", "Wink"],
+} as const;
 
 export const monologues = [
   "Am I overthinking this?",
